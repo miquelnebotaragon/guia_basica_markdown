@@ -125,7 +125,8 @@ Exemple:
 Per inserir imatges ho farem de manera molt semblant a com ho hem fet amb els enllaços però, a més, afegirem un signe d'admiració al davant de les claus (![ ]). En aquest cas, el text que hi ha a les claus és el text ALT, és a dir, el text alternatiu.
 
 Exemple:
-![Imatge d'exemple](/home/mnebot/Imágenes/mike_logo.jpg)
+
+![Imatge d'exemple](./static/mike_blue_moodle_preview_rev_1.png)
 
 ### 12. Creació de taules
 
