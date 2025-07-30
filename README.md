@@ -1,3 +1,6 @@
+[![Website](https://img.shields.io/badge/Moodle-miquelnebot.eu-blue)](https://miquelnebot.eu)
+[![License](https://img.shields.io/badge/Llicència-MIT-green)](LICENSE)
+
 # 📘 Guia ràpida de Markdown
 
 ## 📌 Sintaxi bàsica
