@@ -155,7 +155,7 @@ Consideracions:
 Exemple:  
 ~~Text tatxat~~
 
-- Gràcies a la contrabarra podrem "escapar" o inutilitzar els símbols que hi ha al darrere seu per evitar que invoquin la seva funció.
+- Gràcies a la contrabarra (\) podrem "escapar" o inutilitzar els símbols que hi ha al darrere seu per evitar que invoquin la seva funció.
 
 Exemple:
 Això NO farà negreta, simplement mostrarà els dos asteriscs: \*\*No serà negreta\*\*.
