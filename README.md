@@ -1,6 +1,7 @@
 [![Website](https://img.shields.io/badge/Moodle-miquelnebot.eu-blue)](https://miquelnebot.eu)
 [![License](https://img.shields.io/badge/Llicència-MIT-green)](LICENSE)
-[![Website](https://img.shields.io/badge/Versió-Castellà-yellow)](README.es.md)
+[![Descarga MD](https://img.shields.io/badge/Descarga_MD-Català-yellow)](https://raw.githubusercontent.com/miquelnebotaragon/guia_basica_markdown/refs/heads/main/README.md)
+[![Website](https://img.shields.io/badge/Versió-Castellà-red)](README.es.md)
 
 <a href="https://daringfireball.net/projects/markdown/"><img src="./static/Markdown-blue-solid.svg.png" style="height: 20%; width:20%;"/></a>
 
