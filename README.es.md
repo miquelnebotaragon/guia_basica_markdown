@@ -1,10 +1,10 @@
 [![Website](https://img.shields.io/badge/Moodle-miquelnebot.eu-blue)](https://miquelnebot.eu)
-[![License](https://img.shields.io/badge/Llicència-MIT-green)](LICENSE)
-[![Website](https://img.shields.io/badge/Versió-Castellà-yellow)](README.es.md)
+[![License](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
+[![Website](https://img.shields.io/badge/Versión-Català-red)](README.md)
 
 <a href="https://daringfireball.net/projects/markdown/"><img src="./static/Markdown-blue-solid.svg.png" style="height: 20%; width:20%;"/></a>
 
-# 📘 Guia rápida de Markdown
+# 📘 Guía rápida de Markdown
 
 ## 📌 Sintaxis básica
 
