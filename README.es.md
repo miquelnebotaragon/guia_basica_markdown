@@ -1,12 +1,10 @@
-
+# 📘 Guía básica de Markdown
 [![Website](https://img.shields.io/badge/Moodle-miquelnebot.eu-blue)](https://miquelnebot.eu)
 [![License](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
 [![Descarga MD](https://img.shields.io/badge/Descarga_MD-Español-yellow)](https://raw.githubusercontent.com/miquelnebotaragon/guia_basica_markdown/refs/heads/main/README.es.md)
 [![Website](https://img.shields.io/badge/Versión-Català-red)](README.md)
 
-<a href="https://daringfireball.net/projects/markdown/"><img src="./static/Markdown-blue-solid.svg.png" style="height: 20%; width:20%;"/></a>
-
-# 📘 Guía rápida de Markdown
+<a href="https://www.canva.com/design/DAFcJaXg8P8/jVEzvgUu4nwXpsm1tcKJYw/edit?utm_content=DAFcJaXg8P8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="./static/baner_guia_basica_md_es.png" style="height: 100%; width:100%;"/></a>
 
 ## 📚 Contenidos
 
