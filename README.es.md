@@ -4,7 +4,7 @@
 [![Descarga MD](https://img.shields.io/badge/Descarga_MD-Español-yellow)](https://raw.githubusercontent.com/miquelnebotaragon/guia_basica_markdown/refs/heads/main/README.es.md)
 [![Website](https://img.shields.io/badge/Versión-Català-red)](README.md)
 
-<a href="https://www.canva.com/design/DAFcJaXg8P8/jVEzvgUu4nwXpsm1tcKJYw/edit?utm_content=DAFcJaXg8P8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="./static/baner_guia_basica_md_es.png" style="height: 100%; width:100%;"/></a>
+<a href="https://www.canva.com/design/DAFcJaXg8P8/jVEzvgUu4nwXpsm1tcKJYw/edit?utm_content=DAFcJaXg8P8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="./static/baner_guia_basica_md_cast.png" style="height: 100%; width:100%;"/></a>
 
 ## 📚 Contenidos
 
