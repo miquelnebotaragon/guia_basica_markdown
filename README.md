@@ -33,9 +33,9 @@
 
 ### 🔗 On puc aconseguir més informació?
 
-* John Gruber, creador d'aquest llenguatge, va descriure les especificacions originals al web [Daring Fireball](https://daringfireball.net/projects/markdown/). Tot i això, cal destacar que la informació que hi trobam és incompleta i, en algunes parts, està desactualitzada.
+* John Gruber, creador d'aquest llenguatge, va descriure les especificacions originals al web [*Daring Fireball*](https://daringfireball.net/projects/markdown/). Tot i això, cal destacar que la informació que hi trobam és incompleta i, en algunes parts, està desactualitzada.
 * [Common Mark](https://commonmark.org/) és, a dia d'avui, la  referència principal per **estarditzar Markdown** (projecte més consistent i formal). Prova [aquí](https://commonmark.org/help/) el **tour** d'1 minut sobre Markdown.
-* Un altre recurs recomanat és la completa i ben organitzada guia  [Markdown Guide](https://www.markdownguide.org/) de [Matt Cone](https://www.mattcone.com/) amb llicenciament [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ca).
+* Un altre recurs recomanat és la completa i ben organitzada guia [*Markdown Guide*](https://www.markdownguide.org/) de [Matt Cone](https://www.mattcone.com/) amb llicenciament [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ca).
 
 ## 📌 Sintaxi bàsica
 
@@ -52,11 +52,11 @@ Aquesta seria una segona línia.
 Aquesta seria una primera línia.  
 Aquesta seria una segona línia.
 
-⚠️ Nota! En molts entorns moderns com GitHub o Notion això no és necessari fer-ho així (el seu comportament és diferent). Depèn del renderitzador que incorpora l'eina.
+⚠️ Nota! En molts entorns moderns com GitHub o Notion no és necessari fer-ho així (el seu comportament és diferent). Depèn del renderitzador que incorpora l'eina.
 
 ### 2. Paràgrafs
 
-Per separar textos en paràgrafs diferents, simplement deixarem una línia de separació entre ells.
+Per separar textos en paràgrafs diferents, simplement deixarem una línia de separació en blanc entre ells.
 
 ```Markdown
 Això seria un primer paràgraf que finalitza aquí.
@@ -103,7 +103,7 @@ Tant podem emprar els asteriscs (*) com els guions baixos (_) per invocar aquest
 - 1 asterisc obrint i tancant: *Text en cursiva*
 - 1 guió baix obrint i tancant: _Text en cursiva_
 - 2 asteriscs obrint i tancant: **Text en negreta**
-- 2 guions baixos  obrint i tancant: __Text en negreta__
+- 2 guions baixos obrint i tancant: __Text en negreta__
 - 3 asteriscs obrint i tancant: ***Cursiva i negreta***
 ```
 
@@ -205,11 +205,6 @@ Podem citar text fent servir el símbol major què (>) i niar cites fent servir 
 
 Si desenvolupam codi i volem que aparegui destacat farem servir l'accent obert o "backtick" (`) per obrir i tancar.
 
-> 💡 **Nota:**
-> El símbol que cal per marcar codi en línia és el "backtick" (\`).  
-> En una distribució de teclat espanyol (ES) o català (CAT), el pots escriure prement la tecla de **l'accent obert (\`)** i tot seguit la **barra espaiadora**.
-> Si disposam de distribució de teclat en anglès d'Amèrica, per exemple, el tens al costat esquerre del número 1.
-
 
 ```Markdown
 `print("La meva primera línia de codi amb Python")`
@@ -242,7 +237,7 @@ else:
 
 ### 10. Enllaços
 
-Per crear enllaços a pàgines web ho farem seguint la següent estructura: Entre claus ([ ]) la informació que es mostrarà en pantalla i, a continuació entre parèntesi (()) la URL de l'enllaç.
+Per crear enllaços a pàgines web ho farem seguint la següent estructura: Entre claus ([ ]) la informació que es mostrarà en pantalla (enllaç) i, a continuació entre parèntesi (()) la URL de destí.
 
 ```Markdown
 [Text per mostrar en pantalla](URL)
@@ -289,9 +284,9 @@ Les taules són un altre element molt emprat a l'hora de crear recursos i docume
 ```
 
 ✅ **Exemple de sortida renderitzada:**
-| Alumnat | Dilluns | Dimarts | Dimecres | Dijous | Divendres|
-|:-------:|:-------:|:-------:|:--------:|:------:|:--------:|
-|Nombre   |37       |45       |24        |15      |17        |
+| Alumnat | Dilluns | Dimarts | Dimecres | Dijous | Divendres |
+|:-------:|:-------:|:-------:|:--------:|:------:|:---------:|
+|Nombre   |37       |45       |24        |15      |17         |
 
 Consideracions:
 
