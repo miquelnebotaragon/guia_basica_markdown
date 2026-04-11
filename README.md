@@ -105,15 +105,18 @@ Tant podem emprar els asteriscs (*) com els guions baixos (_) per invocar aquest
 - 2 asteriscs obrint i tancant: **Text en negreta**
 - 2 guions baixos obrint i tancant: __Text en negreta__
 - 3 asteriscs obrint i tancant: ***Cursiva i negreta***
+- 3 guions baixos obrint i tancant: ___Cursiva i negreta___
 ```
 
 ✅ **Exemple de sortida renderitzada:**
 
 *Text en cursiva*, **Text en negreta** i ***Cursiva i negreta***
 
+⚠️ ¡Nota! Si estam escrivint per a GitHub, Discord o Notion, millor emprar asterisc (*) per emfatitzar els nostres textos. Generalment són més segurs a l'hora d'utilitzar Markdown.
+
 ### 5. Llistes numerades
 
-Per construir una llista numerada escriurem un número seguit de punt. Podem escriure constantment simplement el número 1, Markdown ja s'encarrega de posar el nombre que correspon a la numeració.
+Per construir una llista numerada escriurem un número seguit de punt. Podem escriure constantment simplement el número u (1), Markdown ja s'encarrega de posar el nombre que correspon a la numeració.
 
 ```Markdown
 
@@ -203,7 +206,7 @@ Podem citar text fent servir el símbol major què (>) i niar cites fent servir 
 
 ### 9. Blocs de codi
 
-Si desenvolupam codi i volem que aparegui destacat farem servir l'accent obert o "backtick" (`) per obrir i tancar.
+Si desenvolupam codi i volem que aparegui destacat farem servir l'accent obert o *backtick* (`) per obrir i tancar.
 
 
 ```Markdown
@@ -213,7 +216,7 @@ Si desenvolupam codi i volem que aparegui destacat farem servir l'accent obert o
 ✅ **Exemple de sortida renderitzada:**  
 `print("Hello World!")`
 
-Si tenim blocs de codi més grans, podem emprar tres backticks (\`) per mostrar-lo. Escriurem a continuació el llenguatge que és: Python, Java...
+Si tenim blocs de codi més grans, podem emprar tres *backticks* (\`) per mostrar-lo. Escriurem a continuació el llenguatge que és: Python, Java...
 
 ````Markdown
 ```Python
@@ -262,7 +265,7 @@ També podem fer referència a enllaços creats prèviament de la següent maner
 [2]: https://github.com/miquelnebotaragon
 ### 11. Imatges
 
-Per inserir imatges ho farem de manera molt semblant a com ho hem fet amb els enllaços però, a diferència d'aquests, afegirem un signe d'admiració al davant de les claus (![ ]). En aquest cas, el text que hi ha a les claus és el text ALT, és a dir, el text alternatiu (no es veu directament, està pensat per a l'accessibilitat i el SEO).
+Per inserir imatges ho farem de manera molt semblant a com ho hem fet amb els enllaços però, a diferència d'aquests, afegirem un signe d'admiració al davant de les claus (![ ]). En aquest cas, el text que hi ha a les claus és el text ALT, és a dir, el text alternatiu (no es veu directament, està pensat per a l'accessibilitat i el SEO). Entre parèntesi, la ruta completa a la imatge.
 
 ```Markdown
 ![text ALT](ruta d'accés a la imatge)
@@ -275,7 +278,7 @@ Per inserir imatges ho farem de manera molt semblant a com ho hem fet amb els en
 ### 12. Creació de taules 
 ⚠️ Nota! Aquesta característica pertany a la part de la sintaxi extesa de MD, també anomenada [*Flavor*](https://github.github.com/gfm/).
 
-Les taules són un altre element molt emprat a l'hora de crear recursos i documentació en format MD. Es construeixen fent servir com a mínim 3 línies. La primera amb els títols de les columnes, la segona que ens servirà per controlar l'alineació dels elements a dins les cel·les i, a partir de la tercera, totes les que necessitem per emplenar la nostra taula.
+Les taules són un altre recurs molt emprat a l'hora de crear documentació en format MD. Es construeixen fent servir com a mínim 3 línies. La primera amb els títols de les columnes, la segona que ens servirà per controlar l'alineació dels elements a dins les cel·les i, a partir de la tercera, totes les que necessitem per emplenar la nostra taula.
 
 ```Markdown
 | Columna1 | Columna2 | Columna3 | Columna4 | Columna5 |
@@ -290,7 +293,7 @@ Les taules són un altre element molt emprat a l'hora de crear recursos i docume
 
 Consideracions:
 
-- Pots deixar espais o no entre el text i les barres (|), funcionarà igual.
+- Pots deixar espais o no entre el text i les barres verticals (|), funcionarà igual.
 - Markdown no requereix que les columnes tinguin exactament el mateix ample, però ajuda visualment si ho fas així.
 
 #### 12.1 Control d'alineació de columnes
@@ -307,7 +310,7 @@ Consideracions:
 ```
 
 ✅ **Exemple de sortida renderitzada:**  
-~~Hi havia una vegades dos homes que...~~
+~~Hi havia una vegada dos homes que...~~
 
 - Gràcies a la contrabarra (\\) podrem "escapar" o inutilitzar els símbols que hi ha al darrere seu per evitar que invoquin la seva funció.
 
@@ -317,7 +320,7 @@ Consideracions:
 
 ✅ **Exemple de sortida renderitzada:**  
 
-Això NO farà negreta, simplement mostrarà els dos asteriscs: \*\*No serà negreta\*\*.
+Això NO farà negreta, simplement mostrarà els dos asteriscs: \*\*no serà negreta\*\*.
 
 - Tres asteriscs o tres guions (mitjos o baixos) per crear línies de divisió (amb espais o sense entre els símbols).
 
