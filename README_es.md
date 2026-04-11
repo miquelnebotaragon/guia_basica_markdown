@@ -1,7 +1,7 @@
 # 📘 Guía básica de Markdown
 [![Website](https://img.shields.io/badge/Aula_virtual-miquelnebot.eu-blue)](https://miquelnebot.eu)
 [![License](https://img.shields.io/badge/Licencia-CC_BY--SA_4.0-green)](LICENSE)
-[![Descarga MD](https://img.shields.io/badge/Descarga_MD-Español-yellow)](https://raw.githubusercontent.com/miquelnebotaragon/guia_basica_markdown/refs/heads/main/README.md)
+[![Descarga MD](https://img.shields.io/badge/Descarga_MD-Español-yellow)](https://raw.githubusercontent.com/miquelnebotaragon/guia_basica_markdown/refs/heads/main/README_es.md)
 <a href="https://www.canva.com/design/DAGvPaf3ncs/6qepaI_Ri1enM0pvBUUo1Q/edit?utm_content=DAGvPaf3ncs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="./static/baner_guia_basica_md_cast.png" style="height: 100%; width:100%;"/></a>
 
 ## 📚 Contenidos
