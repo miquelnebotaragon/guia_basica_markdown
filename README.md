@@ -112,14 +112,13 @@ Tant podem emprar els asteriscs (*) com els guions baixos (_) per invocar aquest
 
 *Text en cursiva*, **Text en negreta** i ***Cursiva i negreta***
 
-⚠️ ¡Nota! Si estam escrivint per a GitHub, Discord o Notion, millor emprar asterisc (*) per emfatitzar els nostres textos. Generalment són més segurs a l'hora d'utilitzar Markdown.
+⚠️ Nota! Si estam escrivint per a GitHub, Discord o Notion, millor emprar asterisc (*) per emfatitzar els nostres textos. Generalment són més segurs a l'hora d'utilitzar Markdown.
 
 ### 5. Llistes numerades
 
 Per construir una llista numerada escriurem un número seguit de punt. Podem escriure constantment simplement el número u (1), Markdown ja s'encarrega de posar el nombre que correspon a la numeració.
 
 ```Markdown
-
 1. Primer element de la llista numerada
 2. Segon element de la llista numerada
 3. Tercer element de la llista numerada
@@ -247,7 +246,7 @@ Per crear enllaços a pàgines web ho farem seguint la següent estructura: Entr
 ```
 
 ✅ **Exemple de sortida renderitzada:**  
-[La meva web](https://miquelnebot.eu)
+[La meva pàgina web](https://miquelnebot.eu)
 
 També podem fer referència a enllaços creats prèviament de la següent manera:  
 ```Markdown
@@ -263,6 +262,7 @@ També podem fer referència a enllaços creats prèviament de la següent maner
 
 [1]: https://miquelnebot.eu
 [2]: https://github.com/miquelnebotaragon
+
 ### 11. Imatges
 
 Per inserir imatges ho farem de manera molt semblant a com ho hem fet amb els enllaços però, a diferència d'aquests, afegirem un signe d'admiració al davant de les claus (![ ]). En aquest cas, el text que hi ha a les claus és el text ALT, és a dir, el text alternatiu (no es veu directament, està pensat per a l'accessibilitat i el SEO). Entre parèntesi, la ruta completa a la imatge.
