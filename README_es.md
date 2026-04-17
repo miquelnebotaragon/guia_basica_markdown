@@ -41,7 +41,7 @@
 
 ### 1. Salto de línea
 
-En Markdown, si queremos dar un salto de línea, debemos dejar dos espacios (pulsar dos veces en la barra espaciadora) al final de la primera oración.
+En Markdown, si queremos realizar un salto de línea, debemos dejar dos espacios (pulsar dos veces en la barra espaciadora) al final de la primera oración.
 
 ```Markdown
 Esta sería una primera línea.  
@@ -52,7 +52,7 @@ Esta sería una segunda línea.
 Esta sería una primera línea.  
 Esta sería una segunda línea.
 
-⚠️ ¡Nota! En muchos entornos modernos como GitHub o Notion no es necesario hacerlo así (su comportamiento es distinto). Depende del renderizador que incorpora la propia herramienta.
+⚠️ ¡Nota! En muchos entornos modernos como GitHub o Notion no es necesario hacerlo así (su comportamiento es distinto). Depende del renderizador que incorpore la propia herramienta.
 
 ### 2. Párrafos
 
@@ -101,7 +101,7 @@ Los construiremos poniendo el símbolo de la almohadilla (#) delante del texto q
 
 ### 4. Negrita y cursiva
 
-Tanto podemos utilizar los asteriscos (*) como los guiones bajos (_) para invocar estos habituales enfatizadores de texto siguiendo la norma:  
+Tanto podemos utilizar el símbolo asterísco (*) como el guion bajo (_) para invocar estos habituales enfatizadores de texto. Lo haremos siguiendo esta norma:  
 
 ```Markdown
 - 1 asterisco abriendo y cerrando: *Texto en cursiva*
@@ -120,10 +120,9 @@ Tanto podemos utilizar los asteriscos (*) como los guiones bajos (_) para invoca
 
 ### 5. Listas numeradas
 
-Para construir una lista numerada escribiremos un número seguido de punto. Podemos escribir constantemente el número uno (1); Markdown ya se encarga de poner el número que corresponda a la numeración.
+Para construir una lista numerada escribiremos un número seguido de punto. Podemos escribir constantemente el número uno (1); Markdown ya se encarga de poner el número que corresponda a la numeración de manera automática.
 
 ```Markdown
-
 1. Primer elemento de la lista numerada
 1. Segundo elemento de la lista numerada
 1. Tercer elemento de la lista numerada
@@ -154,7 +153,6 @@ Para construir una lista numerada escribiremos un número seguido de punto. Pode
 Con los símbolos asterisco (*), guion medio (-) o más (+) seguidos de un espacio crearemos listas desordenadas. También, al igual que hemos visto en las anteriores, podemos anidarlas.
 
 ```Markdown
-
 - Elemento 1 de la lista
   - Subelemento 1 de la lista
     - Subsubelemento 1 de la lista
@@ -281,7 +279,7 @@ Para insertar imágenes lo haremos de forma muy parecida a como lo hemos hecho c
 ![Imagen de ejemplo](./static/mike_blue_moodle_preview_rev_1.png)
 
 ### 12. Creación de tablas 
-⚠️ ¡Nota! Esta característica pertenece a la parte de la sintaxis extendida de MD, también llamada [*Flavor*](https://github.github.com/gfm/).
+⚠️ ¡Nota! Esta característica pertenece a la parte de la sintaxis extendida de Markdown, también llamada [*Flavor*](https://github.github.com/gfm/).
 
 Las tablas son otro recurso muy utilizado a la hora de crear documentación en formato MD. Se construyen utilizando al menos 3 líneas. La primera con los títulos de las columnas, la segunda que nos servirá para controlar la alineación de los elementos en las celdas y, a partir de la tercera, todas las que necesitemos para rellenar nuestra tabla.
 
