@@ -1,7 +1,7 @@
 # 📘 Guía básica de Markdown
-[![Website](https://img.shields.io/badge/Aula_virtual-miquelnebot.eu-blue)](https://miquelnebot.eu)
-[![License](https://img.shields.io/badge/Licencia-CC_BY--SA_4.0-green)](LICENSE)
-[![Descarga MD](https://img.shields.io/badge/Descarga_MD-Español-yellow)](https://raw.githubusercontent.com/miquelnebotaragon/guia_basica_markdown/refs/heads/main/README_es.md)
+[![Website](https://img.shields.io/badge/Web-miquelnebot.eu-blue?logo=Moodle&logoColor=white)](https://miquelnebot.eu)
+[![License](https://img.shields.io/badge/Licencia-CC_BY--SA_4.0-green?logo=CreativeCommons&logoColor=white)](LICENSE)
+[![Descarga MD](https://img.shields.io/badge/Descarga_MD-Español-yellow?logo=Markdown&logoColor=white)](https://raw.githubusercontent.com/miquelnebotaragon/guia_basica_markdown/refs/heads/main/README_es.md)
 <a href="https://www.canva.com/design/DAGvPaf3ncs/6qepaI_Ri1enM0pvBUUo1Q/edit?utm_content=DAGvPaf3ncs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="./static/baner_guia_basica_md_cast.png" style="height: 100%; width:100%;"/></a>
 
 ## 📚 Contenidos
@@ -41,7 +41,7 @@
 
 ### 1. Salto de línea
 
-En Markdown, si queremos realizar un salto de línea, debemos dejar dos espacios (pulsar dos veces en la barra espaciadora) al final de la primera oración.
+En Markdown, si queremos realizar un salto de línea, debemos dejar dos espacios al final de la línea y pulsar Intro.
 
 ```Markdown
 Esta sería una primera línea.  
@@ -212,11 +212,11 @@ Si desarrollamos código y queremos que aparezca destacado utilizaremos el acent
 
 
 ```Markdown
-`print("Mi primera línea de código en Python")`
+`print("¡Hola Mundo!")`
 ```
 
 ✅ **Ejemplo de salida renderizada:**  
-`print("Hello World!")`
+`print("¡Hola Mundo!")`
 
 Si tenemos bloques de código más grandes, podemos utilizar tres *backticks* (\`) para mostrarlo. Escribiremos a continuación el lenguaje que es: Python, Java...
 
@@ -278,15 +278,17 @@ Para insertar imágenes lo haremos de forma muy parecida a como lo hemos hecho c
 
 ![Imagen de ejemplo](./static/mike_blue_moodle_preview_rev_1.png)
 
+⚠️ ¡Nota! Aquí cabe diferenciar que podemos hacer referencia a imágenes de rutas absolutas (imágenes de Internet https://web.com/imagen.jpg) como a otras que tengamos en un repositorio propio (rutas relativas). Por ejemplo, si queremos mostrar una imagen de un directorio de nuestro repositorio de GitHub lo haremos de la siguiente manera: `![text ALT](./static/nombre_imagen.jpg)`
+
 ### 12. Creación de tablas 
 ⚠️ ¡Nota! Esta característica pertenece a la parte de la sintaxis extendida de Markdown, también llamada [*Flavor*](https://github.github.com/gfm/).
 
 Las tablas son otro recurso muy utilizado a la hora de crear documentación en formato MD. Se construyen utilizando al menos 3 líneas. La primera con los títulos de las columnas, la segunda que nos servirá para controlar la alineación de los elementos en las celdas y, a partir de la tercera, todas las que necesitemos para rellenar nuestra tabla.
 
 ```Markdown
-| Columna1 | Columna2 | Columna3 | Columna4 | Columna5 |
-|:--------:|:--------:|:--------:|:--------:|:--------:|
-|   Val1   |   Val2   |   Val3   |   Val4   |   Val5   |
+| Columna1 | Columna2 | Columna3 | Columna4 | Columna5 | Columna6 |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|   Val1   |   Val2   |   Val3   |   Val4   |   Val5   |   Val6   |
 ```
 
 ✅ **Ejemplo de salida renderizada:**
@@ -340,7 +342,7 @@ Esto NO hará negrita, simplemente mostrará los dos asteriscos: \*\*no será ne
 ✅ **Ejemplo de salida renderizada:**
 ___
 
-- HTML inline: es necesario saber que se pueden incrustar etiquetas HTML sencillas, como \<br>, \<strong>, etc., en los casos en que la sintaxis de Markdown no llega.
+- HTML inline: es necesario saber que, en determinados entornos (otros lo bloquean por seguridad) se pueden incrustar etiquetas HTML sencillas, como \<br>, \<strong>, etc., en los casos en que la sintaxis de Markdown no llega.
 
 ```Markdown
 

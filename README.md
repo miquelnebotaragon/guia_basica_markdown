@@ -275,6 +275,8 @@ Per inserir imatges ho farem de manera molt semblant a com ho hem fet amb els en
 
 ![Imatge d'exemple](./static/mike_blue_moodle_preview_rev_1.png)
 
+⚠️ ¡Nota! Aquí cal diferenciar que podem fer referència a rutes absolutes (imatges d'Internet https://web.com/imatge.jpg) com a d'altres que tenguem en un repositori propi (rutes relatives). Per exemple, si volem mostrar una imatge d'un directori del nostre repositori de GitHub ho farem de la següent manera: `![text ALT](./static/nombre_imagen.jpg)`
+
 ### 12. Creació de taules 
 ⚠️ Nota! Aquesta característica pertany a la part de la sintaxi extesa de MD, també anomenada [*Flavor*](https://github.github.com/gfm/).
 
@@ -337,7 +339,7 @@ Això NO farà negreta, simplement mostrarà els dos asteriscs: \*\*no serà neg
 ✅ **Exemple de sortida renderitzada:**
 ___
 
-- HTML inline: cal saber que es poden incrustar etiquetes HTML senzilles, com \<br>, \<strong>, etc., en els casos on la sintaxi de Markdown no arriba.
+- HTML inline: cal saber que es poden incrustar, a determinats entors (alguns altres ho bloquegen per seguretat), etiquetes HTML senzilles, com \<br>, \<strong>, etc., en els casos on la sintaxi de Markdown no arriba.
 
 ```Markdown
 
