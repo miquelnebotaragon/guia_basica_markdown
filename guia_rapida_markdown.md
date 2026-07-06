@@ -1,4 +1,4 @@
-![logo_markdown](/assets/logo_markdown.png)
+![logo_markdown](/static/logo_markdown.png)
 # Guía rápida de Markdown
 
 ## Salto de línea
